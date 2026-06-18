@@ -2,7 +2,6 @@
 
 import { useRef } from "react"
 import Link from "next/link"
-
 export function DemoVideoPlayer() {
   const videoRef = useRef<HTMLVideoElement>(null)
 
@@ -32,7 +31,7 @@ export function DemoVideoPlayer() {
 
         <div className="mt-8 flex justify-center">
           <Link
-            href="/whatsapp"
+            href="/oferta"
             className="rounded-lg bg-[#2d6a4f] px-8 py-4 text-lg font-medium text-white transition-colors hover:bg-[#255c43]"
           >
             Continuar
